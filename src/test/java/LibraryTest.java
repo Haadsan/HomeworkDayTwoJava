@@ -19,4 +19,11 @@ public class LibraryTest {
         assertEquals(0, library.stockCheck());
     }
 
+    public void canAddBook(){
+        library.canAddBook(book);
+        assertEquals(1, library.stockCheck());
+    }
+
+
+
 }
