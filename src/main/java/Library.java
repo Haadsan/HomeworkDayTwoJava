@@ -26,6 +26,15 @@ public class Library {
 
     }
 
+//    Remove book from stock
+
+    public Book removeBook(Book book) {
+        this.bookStock.remove(book);
+        return book;
+    }
+
+
+
 
 
 
